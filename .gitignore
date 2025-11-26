@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Allow root-level .md files only
+!*.md
+
+# Ignore .md files in subdirectories
+**/*.md
+
+# Don't ignore .gitignore itself
+!.gitignore
